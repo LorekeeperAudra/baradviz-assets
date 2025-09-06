@@ -132,7 +132,7 @@ th {
       color: #f5deb3;
       font-size:var(--fs-body);;
       font-family: "Times New Roman", serif;
-      margin: 1rem 0 1rem 1rem; /* отступы сверху/снизу и слева для номеров */
+      margin: 1rem 0 1rem var(--fs-body); /* отступы сверху/снизу и слева для номеров */
     }
 
     h1, h2, h3, h4, h5, h6 {
