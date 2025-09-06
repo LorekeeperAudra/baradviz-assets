@@ -45,7 +45,7 @@ th {
 
 /* …дальше весь твой код из style … */
 
-  <style>
+
     
     table {
       border-collapse: collapse;              /* убираем двойные линии */
@@ -193,4 +193,4 @@ th {
       padding: 1.5rem;
     }
     
-  </style>
+
