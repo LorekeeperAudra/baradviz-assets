@@ -154,6 +154,17 @@ th {
     h4 { font-size: calc(var(--fs-body) * 28 / 22); }
     h5 { font-size: calc(var(--fs-body) * 24 / 22); }
     h6 { font-size: calc(var(--fs-body) * 20 / 22); }  
+
+    a {
+      color: #f5deb3;           /* цвет наследуется от текста вокруг */
+      text-decoration: none;    /* убираем подчёркивание */
+      transition: color 0.2s;   /* плавное изменение цвета */
+    }
+    
+    a:hover {
+      color: #fceed4; /* делаем чуть светлее при наведении */
+    }
+
     
         :where([style*="Baradwist"]) {
       font-size: calc(1.8*var(--fs-body)); /* увеличиваем размер шрифта */
