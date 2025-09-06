@@ -125,7 +125,7 @@ th {
       color: #f5deb3;
       font-size:var(--fs-body);;
       font-family: "Times New Roman", serif;
-      margin: 1rem 0 1rem 2rem; /* отступы сверху/снизу и слева для номеров */
+      margin: 1rem 0 1rem calc(0.5*var(--fs-body)); /* отступы сверху/снизу и слева для номеров */
     }
 
     ul {
