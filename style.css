@@ -157,6 +157,8 @@ th {
 
     a {
       color: #f5deb3;           /* цвет наследуется от текста вокруг */
+      font-size:var(--fs-body);;
+      font-family: "Times New Roman", serif;
       text-decoration: none;    /* убираем подчёркивание */
       transition: color 0.2s;   /* плавное изменение цвета */
     }
