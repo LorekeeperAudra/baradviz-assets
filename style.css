@@ -89,7 +89,15 @@ th {
     :root {
     --fs-body: clamp(7px, 3.5vw, 22px); /* твой базовый текст */
   }
-    
+
+    blockquote {
+      border-left: 4px solid #f5deb3;
+      padding-left: 1rem;
+      margin: 1rem 0;
+      font-style: italic;
+      font-family: "Times New Roman", serif;
+    }    
+
     p {
       color: #f5deb3;   /* цвет текста */
       font-size: var(--fs-body);;  /* размер абзацев */
@@ -192,12 +200,3 @@ th {
       font-family: "Times New Roman", serif;
       padding: 1.5rem;
     }
-
-blockquote {
-  border-left: 4px solid #f5deb3;
-  padding-left: 1rem;
-  margin: 1rem 0;
-  font-style: italic;
-  font-family: "Times New Roman", serif;
-}    
-
