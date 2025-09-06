@@ -192,5 +192,13 @@ th {
       font-family: "Times New Roman", serif;
       padding: 1.5rem;
     }
+
+blockquote {
+  border-left: 4px solid #f5deb3; /* вертикальная линия слева */
+  padding-left: 1rem;             /* отступ от линии до текста */
+  margin: 1rem 0;                 /* внешний отступ сверху/снизу */
+  font-style: italic;             /* курсив */
+  color: inherit;                 /* унаследованный цвет текста */
+}
     
 
