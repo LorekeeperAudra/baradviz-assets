@@ -121,7 +121,7 @@ th {
     }
     
     /* Нумерованные списки */
-    ol, li {
+    ol, ul {
       color: #f5deb3;
       font-size:var(--fs-body);;
       font-family: "Times New Roman", serif;
