@@ -154,7 +154,7 @@ th {
     }
 
         :where([style*="Marck Script"]) {
-      font-size: calc(1.8*var(--fs-body)); /* увеличиваем размер шрифта */
+      font-size: calc(1.4*var(--fs-body)); /* увеличиваем размер шрифта */
       line-height: 1.5;   /* делаем текст чуть более читаемым */
     }
 
