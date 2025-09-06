@@ -45,6 +45,14 @@ th {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Marck Script";
+  src: url("https://github.com/LorekeeperAudra/baradviz-assets/raw/refs/heads/main/MarckScript.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 :root {
   --fs-body: clamp(7px, 3.5vw, 22px);
   --ink-text-color: #1a0d0d;
