@@ -1,0 +1,196 @@
+table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  color: #f5deb3;
+  border: 2px solid currentColor;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid currentColor;
+  padding: 0.5rem 1rem;
+  text-align: left;
+}
+
+th {
+  background-color: rgba(245, 222, 179, 0.1);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Modesto Condensed";
+  src: url("https://static.wixstatic.com/ufonts/4d4de4_4f56561ee5dd4d8ba56873c16c8a17ee/woff2/file.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Baradwist";
+  src: url("https://static.wixstatic.com/ufonts/0c8ddf_b4c02d4203c748a4abac8b5795212d08/ttf/file.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Uffern";
+  src: url("https://static.wixstatic.com/ufonts/0c8ddf_f8bc4407f8084df8bc7b376f94249dc5/ttf/file.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --fs-body: clamp(7px, 3.5vw, 22px);
+  --ink-text-color: #1a0d0d;
+}
+
+/* …дальше весь твой код из style … */
+
+  <style>
+    
+    table {
+      border-collapse: collapse;              /* убираем двойные линии */
+      margin: 1rem 0;
+      color: #f5deb3;                         /* цвет текста */
+      border: 2px solid currentColor;         /* граница таблицы цветом текста */
+      width: 100%;                            /* ширина по содержимому */
+    }
+
+    th, td {
+      border: 1px solid currentColor;         /* границы цветом текста */
+      padding: 0.5rem 1rem;                   /* отступы внутри */
+      text-align: left;                       /* выравнивание текста */
+    }
+
+    th {
+      background-color: rgba(245, 222, 179, 0.1); /* чуть затемнённый фон */
+      font-weight: bold;
+    }
+    
+    @font-face {
+      font-family: "Modesto Condensed"; /* имя, которое ты сам задаёшь */
+      src: url("https://static.wixstatic.com/ufonts/4d4de4_4f56561ee5dd4d8ba56873c16c8a17ee/woff2/file.woff2") format("woff2");
+      font-weight: 700; /* bald */
+      font-style: normal;
+    }  
+    @font-face {
+      font-family: "Baradwist"; /* имя, которое ты сам задаёшь */
+      src: url("https://static.wixstatic.com/ufonts/0c8ddf_b4c02d4203c748a4abac8b5795212d08/ttf/file.ttf") format("truetype");
+      font-weight: 400; /* bald */
+      font-style: normal;
+    } 
+   
+    @font-face {
+      font-family: "Uffern"; /* имя, которое ты сам задаёшь */
+      src: url("https://static.wixstatic.com/ufonts/0c8ddf_f8bc4407f8084df8bc7b376f94249dc5/ttf/file.ttf") format("truetype");
+      font-weight: 400; /* bald */
+      font-style: normal;
+    }
+    
+    :root {
+    --fs-body: clamp(7px, 3.5vw, 22px); /* твой базовый текст */
+  }
+    
+    p {
+      color: #f5deb3;   /* цвет текста */
+      font-size: var(--fs-body);;  /* размер абзацев */
+      font-family: "Times New Roman";
+      text-align: justify;          /* выравнивание по ширине */
+    }
+    
+    /* Нумерованные списки */
+    ol {
+      color: #f5deb3;
+      font-size:var(--fs-body);;
+      font-family: "Times New Roman", serif;
+      margin: 1rem 0 1rem 2rem; /* отступы сверху/снизу и слева для номеров */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #ffffff;   /* общий цвет */
+      font-family: "Modesto Condensed";
+      font-weight: 700; /* подставится жирный */
+      margin-top: 0em;   /* отступ сверху */
+      margin-bottom: 0.3em; /* отступ снизу */
+    }
+
+    h1 {
+      font-size: calc(var(--fs-body) * 60 / 22);
+      border-bottom: 2px solid #ffffff; /* линия только у h1 */
+      padding-bottom: 10px;
+    }
+
+    h2 { font-size: calc(var(--fs-body) * 48 / 22); }
+    h3 { font-size: calc(var(--fs-body) * 36 / 22); }
+    h4 { font-size: calc(var(--fs-body) * 28 / 22); }
+    h5 { font-size: calc(var(--fs-body) * 24 / 22); }
+    h6 { font-size: calc(var(--fs-body) * 20 / 22); }  
+    
+        :where([style*="Baradwist"]) {
+      font-size: calc(1.8*var(--fs-body)); /* увеличиваем размер шрифта */
+      line-height: 1.5;   /* делаем текст чуть более читаемым */
+    }
+    
+        :root {
+      --ink-text-color: #1a0d0d; /* глубокий тёмно-бордовый/чернильный */
+    }
+
+    .parchment-note-1 {
+      border-image: url("parchment1.webp");
+    }
+
+    .parchment-note-2 {
+      border-image: url("parchment2.webp");
+    }
+
+    .parchment-note-3 {
+      border-image: url("parchment3.webp");
+    }
+
+    .parchment-note-4 {
+      border-image: url("parchment4.webp");
+    }
+
+    .parchment-book-1 {
+      border-image: url("book1.webp");
+    }
+
+    .parchment-book-2 {
+      border-image: url("book2.webp");
+    }
+
+    /* общие правила для всех пергаментов */
+    .parchment-note-1,
+    .parchment-note-2,
+    .parchment-note-3,
+    .parchment-note-4,
+    .parchment-book-1,
+    .parchment-book-2 {
+      filter: sepia(0.6);
+      border-width: 1rem;
+      border-style: solid;
+      border-image-slice: 20% fill;
+      color: var(--ink-text-color); /* чернильный текст */
+      font-family: "Times New Roman", serif; /* для антуража */
+      padding: 1.5rem;
+    }
+ /* только текст внутри контейнеров окрашиваем в чернильный */
+.parchment-note-1 :is(p, span, li, em, strong, a, h1, h2, h3, h4, h5, h6, blockquote, figcaption, td, th, caption),
+.parchment-note-2 :is(p, span, li, em, strong, a, h1, h2, h3, h4, h5, h6, blockquote, figcaption, td, th, caption),
+.parchment-note-3 :is(p, span, li, em, strong, a, h1, h2, h3, h4, h5, h6, blockquote, figcaption, td, th, caption),
+.parchment-note-4 :is(p, span, li, em, strong, a, h1, h2, h3, h4, h5, h6, blockquote, figcaption, td, th, caption),
+.parchment-book-1 :is(p, span, li, em, strong, a, h1, h2, h3, h4, h5, h6, blockquote, figcaption, td, th, caption),
+.parchment-book-2 :is(p, span, li, em, strong, a, h1, h2, h3, h4, h5, h6, blockquote, figcaption, td, th, caption) {
+  color: var(--ink-text-color) !important;
+}
+
+    .parchment-scroll-1 {
+      border-width: 3rem;
+      border-style: solid;
+      border-image: url("scroll1.webp");
+      border-image-slice: 20% fill;
+      color: var(--ink-text-color);
+      font-family: "Times New Roman", serif;
+      padding: 1.5rem;
+    }
+    
+  </style>
