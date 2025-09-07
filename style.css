@@ -60,7 +60,7 @@ th {
 
 /* …дальше весь твой код из style … */
 
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css");
     
     table {
       border-collapse: collapse;              /* убираем двойные линии */
@@ -344,12 +344,7 @@ th {
   border: 1px solid var(--simple-quest-notification-time);
 }
 .notification.time::before {
-  content: "";
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 16 16'><path d='M2 1.5a.5.5...'/></svg>") no-repeat center;
-  background-size: contain;
+  content: "\F421";
   /*content: "\f254"; */
 }
 
