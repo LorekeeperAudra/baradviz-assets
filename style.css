@@ -355,4 +355,12 @@ th {
   content: "\F421";
   /*content: "\f254"; */
 }
+.notification.quote {
+  font-size: var(--fs-body);
+  color:var(--color-text-dark-1);
+  padding: calc(var(--fs-body) * 0.5);
+  line-height: calc(var(--fs-body) * 1.1);
+  background: #9c8468;
+  border: 1px solid #63584a;
+}
 
