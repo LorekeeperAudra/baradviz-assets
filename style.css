@@ -240,3 +240,10 @@ th {
       font-family: "Times New Roman", serif;
       padding: 1.5rem;
     }
+
+.no-select {
+  user-select: none;   /* запрет выделения */
+  -webkit-user-select: none; /* для Safari/Chrome */
+  -moz-user-select: none;    /* для Firefox */
+  -ms-user-select: none;     /* для старого IE/Edge */
+}
