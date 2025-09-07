@@ -344,6 +344,6 @@ th {
   border: 1px solid var(--simple-quest-notification-time);
 }
 .notification.time::before {
-  content: "\f254";
+  content: "\F421";
 }
 
