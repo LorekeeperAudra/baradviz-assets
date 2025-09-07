@@ -275,7 +275,7 @@ th {
 }
 .notification.lore::before {
   font-family: bootstrap-icons;
-  content: "\f5db";
+  content: "\F7BF";
 }
 .notification.creature {
   font-size: var(--fs-body);
@@ -286,7 +286,7 @@ th {
 }
 .notification.creature::before {
   font-family: bootstrap-icons;
-  content: "\f6d5";
+  content: "\F7F9";
 }
 .notification.npc {
   font-size: var(--fs-body);
@@ -297,7 +297,7 @@ th {
 }
 .notification.npc::before {
   font-family: bootstrap-icons;
-  content: "\f007";
+  content: "\F4DA";
 }
 .notification.location {
   font-size: var(--fs-body);
@@ -308,7 +308,7 @@ th {
 }
 .notification.location::before {
   font-family: bootstrap-icons;
-  content: "\f3c5";
+  content: "\F3E7";
 }
 .notification.magic {
   font-size: var(--fs-body);
@@ -319,7 +319,7 @@ th {
 }
 .notification.magic::before {
   font-family: bootstrap-icons;
-  content: "\e2ca";
+  content: "\F675";
 }
 .notification.item {
   font-size: var(--fs-body);
@@ -330,7 +330,7 @@ th {
 }
 .notification.item::before {
   font-family: bootstrap-icons;
-  content: "\f3a5";
+  content: "\F3E6";
 }
 .notification.event {
   font-size: var(--fs-body);
@@ -341,7 +341,7 @@ th {
 }
 .notification.event::before {
   font-family: bootstrap-icons;
-  content: "\f0ac";
+  content: "\F3EE";
 }
 .notification.time {
   font-size: var(--fs-body);
