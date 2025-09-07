@@ -247,3 +247,103 @@ th {
   -moz-user-select: none;    /* для Firefox */
   -ms-user-select: none;     /* для старого IE/Edge */
 }
+
+/* контейнеры симпл квест */
+
+:root {
+  --simple-quest-background: #1b130deb;
+  --simple-quest-notification-creature: #4bae55c4;
+  --simple-quest-notification-magic: #694baec4;
+  --simple-quest-notification-item: #ae4b4bc4;
+  --simple-quest-notification-event: #ae854bc4;
+  --simple-quest-notification-time: #4bae9fc4;
+  --simple-quest-notification-npc: #94ae4bc4;
+  --simple-quest-notification-location: #4b6aaec4;
+  --simple-quest-text-0: #f5deb3;
+  --simple-quest-text-1: #f5deb3;
+  --simple-quest-text-2: #f5deb3;
+  --simple-quest-text-3: #f5deb3;
+  --simple-quest-text-4: #f5deb3;
+}
+
+.notification.lore {
+  font-size: var(--fs-body);
+  padding: calc(var(--fs-body) * 0.5);
+  line-height: calc(var(--fs-body) * 1.1);
+  background: var(--simple-quest-background);
+  border: 1px solid var(--simple-quest-text-4);
+}
+.notification.lore::before {
+  content: "\f5db";
+}
+.notification.creature {
+  font-size: var(--fs-body);
+  padding: calc(var(--fs-body) * 0.5);
+  line-height: calc(var(--fs-body) * 1.1);
+  background: var(--simple-quest-notification-creature);
+  border: 1px solid var(--simple-quest-notification-creature);
+}
+.notification.creature::before {
+  content: "\f6d5";
+}
+.notification.npc {
+  font-size: var(--fs-body);
+  padding: calc(var(--fs-body) * 0.5);
+  line-height: calc(var(--fs-body) * 1.1);
+  background: var(--simple-quest-notification-npc);
+  border: 1px solid var(--simple-quest-notification-npc);
+}
+.notification.npc::before {
+  content: "\f007";
+}
+.notification.location {
+  font-size: var(--fs-body);
+  padding: calc(var(--fs-body) * 0.5);
+  line-height: calc(var(--fs-body) * 1.1);
+  background: var(--simple-quest-notification-location);
+  border: 1px solid var(--simple-quest-notification-location);
+}
+.notification.location::before {
+  content: "\f3c5";
+}
+.notification.magic {
+  font-size: var(--fs-body);
+  padding: calc(var(--fs-body) * 0.5);
+  line-height: calc(var(--fs-body) * 1.1);
+  background: var(--simple-quest-notification-magic);
+  border: 1px solid var(--simple-quest-notification-magic);
+}
+.notification.magic::before {
+  content: "\e2ca";
+}
+.notification.item {
+  font-size: var(--fs-body);
+  padding: calc(var(--fs-body) * 0.5);
+  line-height: calc(var(--fs-body) * 1.1);
+  background: var(--simple-quest-notification-item);
+  border: 1px solid var(--simple-quest-notification-item);
+}
+.notification.item::before {
+  content: "\f3a5";
+}
+.notification.event {
+  font-size: var(--fs-body);
+  padding: calc(var(--fs-body) * 0.5);
+  line-height: calc(var(--fs-body) * 1.1);
+  background: var(--simple-quest-notification-event);
+  border: 1px solid var(--simple-quest-notification-event);
+}
+.notification.event::before {
+  content: "\f0ac";
+}
+.notification.time {
+  font-size: var(--fs-body);
+  padding: calc(var(--fs-body) * 0.5);
+  line-height: calc(var(--fs-body) * 1.1);
+  background: var(--simple-quest-notification-time);
+  border: 1px solid var(--simple-quest-notification-time);
+}
+.notification.time::before {
+  content: "\f254";
+}
+
