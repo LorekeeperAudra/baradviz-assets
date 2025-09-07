@@ -274,6 +274,7 @@ th {
   border: 1px solid var(--simple-quest-text-4);
 }
 .notification.lore::before {
+  font-family: bootstrap-icons;
   content: "\f5db";
 }
 .notification.creature {
@@ -284,6 +285,7 @@ th {
   border: 1px solid var(--simple-quest-notification-creature);
 }
 .notification.creature::before {
+  font-family: bootstrap-icons;
   content: "\f6d5";
 }
 .notification.npc {
@@ -294,6 +296,7 @@ th {
   border: 1px solid var(--simple-quest-notification-npc);
 }
 .notification.npc::before {
+  font-family: bootstrap-icons;
   content: "\f007";
 }
 .notification.location {
@@ -304,6 +307,7 @@ th {
   border: 1px solid var(--simple-quest-notification-location);
 }
 .notification.location::before {
+  font-family: bootstrap-icons;
   content: "\f3c5";
 }
 .notification.magic {
@@ -314,6 +318,7 @@ th {
   border: 1px solid var(--simple-quest-notification-magic);
 }
 .notification.magic::before {
+  font-family: bootstrap-icons;
   content: "\e2ca";
 }
 .notification.item {
@@ -324,6 +329,7 @@ th {
   border: 1px solid var(--simple-quest-notification-item);
 }
 .notification.item::before {
+  font-family: bootstrap-icons;
   content: "\f3a5";
 }
 .notification.event {
@@ -334,6 +340,7 @@ th {
   border: 1px solid var(--simple-quest-notification-event);
 }
 .notification.event::before {
+  font-family: bootstrap-icons;
   content: "\f0ac";
 }
 .notification.time {
