@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
 
 table {
   border-collapse: collapse;
@@ -285,8 +286,8 @@ th {
   border: 1px solid var(--simple-quest-notification-creature);
 }
 .notification.creature::before {
-  font-family: bootstrap-icons;
-  content: "\F7F9";
+  font-family: "Font Awesome 6 Free";
+  content: "\f6d5";
 }
 .notification.npc {
   font-size: var(--fs-body);
