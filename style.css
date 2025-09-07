@@ -344,6 +344,8 @@ th {
   border: 1px solid var(--simple-quest-notification-time);
 }
 .notification.time::before {
-  content: "\F421";
+  font-family: "Font Awesome 6 Free"; /* семейство FA */
+  font-weight: 900;   
+  content: "\f254";
 }
 
