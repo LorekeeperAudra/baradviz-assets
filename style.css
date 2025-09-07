@@ -357,7 +357,7 @@ th {
 }
 .notification.quote {
   font-size: var(--fs-body);
-  color:var(--color-text-dark-1);
+  color:var(--ink-text-color);
   padding: calc(var(--fs-body) * 0.5);
   line-height: calc(var(--fs-body) * 1.1);
   background: #9c8468;
