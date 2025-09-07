@@ -286,7 +286,7 @@ th {
   border: 1px solid var(--simple-quest-notification-creature);
 }
 .notification.creature::before {
-  font-family: "Font Awesome 6 Free";
+  font-family: "Font Awesome 7 Free";
   content: "\f6d5";
 }
 .notification.npc {
