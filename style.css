@@ -344,7 +344,7 @@ th {
   border: 1px solid var(--simple-quest-notification-time);
 }
 .notification.time::before {
-  font-family: bootstrap-icons
+  font-family: bootstrap-icons;
   content: "\F421";
   /*content: "\f254"; */
 }
