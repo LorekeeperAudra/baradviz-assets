@@ -355,14 +355,14 @@ th {
   content: "\F421";
   /*content: "\f254"; */
 }
-.notification.quote {
+.notification1.quote {
   font-size: var(--fs-body);
   padding: calc(var(--fs-body) * 0.5);
   line-height: calc(var(--fs-body) * 1.1);
   background: #9c8468;
   border: 1px solid #63584a;
 }
-.notification.quote :is(p, span, li, em, strong, a, h1, h2, h3, h4, h5, h6, blockquote, figcaption, td, th, caption) {
+.notification1.quote :is(p, span, li, em, strong, a, h1, h2, h3, h4, h5, h6, blockquote, figcaption, td, th, caption) {
   color: var(--ink-text-color) !important;
 }
 
